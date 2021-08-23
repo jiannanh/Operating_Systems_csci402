@@ -1,5 +1,6 @@
 # Operating_Systems_csci402
-###Required:
+## 参考资料
+### Required:
 
 T. W. Doeppner, Operating Systems In Depth: Design and Programming, 1st Edition, Wiley, 2010. (Please note that the Kindle Edition of this book is identical to the printed version of this book.)
 
@@ -11,7 +12,7 @@ T. W. Doeppner, Operating Systems In Depth: Design and Programming, 1st Edition,
   - 中文 - 微信读书
   - 英文 - https://pages.cs.wisc.edu/~remzi/OSTEP/
 
-###Recommended resources:
+### Recommended resources:
 
 B. Kernighan and D. Ritchie, C Programming Language, 2nd Edition, Prentice Hall, 1988. (Since the C programming language is a proper subset of the C++ programming language, if you know C++, you pretty much know C already. However, things available in C++, such as strings and streams, are not be available in C. So, you need to know how to do things such as manipulating null-terminated array of characters and performing I/O in C.)
 - http://cslabcms.nju.edu.cn/problem_solving/images/c/cc/The_C_Programming_Language_%282nd_Edition_Ritchie_Kernighan%29.pdf
