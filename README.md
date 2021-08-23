@@ -29,7 +29,7 @@ Joe Topjian, Unix for the Beginning Mage. (If you are not familiar with Unix, pl
 David Rusling, The Linux Kernel. (This is for your reading pleasure. We will not cover this book in our class.)
 
 ## 第一周
-- 浏览官网
+- 浏览官网 open lecture pdf username: cs402 password: kernel
 - download VirtualBox http://merlot.usc.edu/cs402-f21/prepare-kernel/
 - code repo: bitbucket.org
 - 学习 C 和 Unix 基本操作
