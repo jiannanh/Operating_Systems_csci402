@@ -1,4 +1,6 @@
 # Operating_Systems_csci402
+### 官网：http://merlot.usc.edu/cs402-f21/
+
 ## 参考资料
 ### Required:
 
@@ -25,3 +27,9 @@ Joe Topjian, Unix for the Beginning Mage. (If you are not familiar with Unix, pl
 - https://dasher.wustl.edu/chem430/readings/unix-tutorial.pdf
 
 David Rusling, The Linux Kernel. (This is for your reading pleasure. We will not cover this book in our class.)
+
+## 第一周
+- 浏览官网
+- download VirtualBox
+- code repo: bitbucket.org
+- 学习 C 和 Unix 基本操作
