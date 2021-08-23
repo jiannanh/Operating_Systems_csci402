@@ -30,6 +30,6 @@ David Rusling, The Linux Kernel. (This is for your reading pleasure. We will not
 
 ## 第一周
 - 浏览官网
-- download VirtualBox
+- download VirtualBox http://merlot.usc.edu/cs402-f21/prepare-kernel/
 - code repo: bitbucket.org
 - 学习 C 和 Unix 基本操作
