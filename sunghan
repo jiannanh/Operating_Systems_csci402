@@ -1,0 +1,117 @@
+SIGNATURE: 53616c7465645f5f865bc12ab1b6fef1d5d92f0ff2deaa647f114ba1d749dc934f6081052c9f4527932acd91c168bb31
+test/kshell/kshell.c:98 kshell_add_command(): Added help command
+test/kshell/kshell.c:98 kshell_add_command(): Added echo command
+test/kshell/kshell.c:98 kshell_add_command(): Added exit command
+test/kshell/kshell.c:98 kshell_add_command(): Added sunghan command
+test/kshell/kshell.c:98 kshell_add_command(): Added deadlock command
+test/kshell/kshell.c:98 kshell_add_command(): Added faber command
+test/kshell/kshell.c:133 kshell_create(): kshell successfully created on TTY 0
+test/kshell/kshell.c:446 kshell_execute_next(): Attempting to execute command 'help'
+test/kshell/kshell.c:446 kshell_execute_next(): Attempting to execute command 'sunghan'
+proc/sunghan_test.c:147 sunghan_test(): 
+>>> Start running sunghan_test()...
+proc/sunghan_test.c:78 add_my_node(): Invoke add_mynode
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 3)
+proc/sunghan_test.c:103 remove_my_node(): Invoke remove_mynode
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 3)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 1)
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:93 add_my_node(): Add node: 1
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 5)
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 0)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 0
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 0)
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 0)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:93 add_my_node(): Add node: 1
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 2)
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 7)
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 0
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 4)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 7)
+proc/sunghan_test.c:93 add_my_node(): Add node: 1
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 6)
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 7)
+proc/sunghan_test.c:93 add_my_node(): Add node: 2
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 3)
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 4)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 1
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 1)
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 9)
+proc/sunghan_test.c:93 add_my_node(): Add node: 2
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 1)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 5)
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 1
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 3)
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 7)
+proc/sunghan_test.c:93 add_my_node(): Add node: 2
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 6)
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 2)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:93 add_my_node(): Add node: 3
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 2)
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 0)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 2
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 9)
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 5)
+proc/sunghan_test.c:93 add_my_node(): Add node: 3
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 2)
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 9)
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 2
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 4)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 6)
+proc/sunghan_test.c:93 add_my_node(): Add node: 3
+proc/sunghan_test.c:71 check_sleep(): Thread add does not go to sleep (rnd = 5)
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 1)
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:93 add_my_node(): Add node: 4
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 9)
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 3
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 1)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 2)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 2
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 2)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 3)
+proc/sunghan_test.c:130 watch_dog(): Watch_dog wake up all sleeping thread
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 1
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 8)
+proc/sunghan_test.c:71 check_sleep(): Thread remove does not go to sleep (rnd = 7)
+proc/sunghan_test.c:119 remove_my_node(): Remove node: 0
+proc/sunghan_test.c:182 sunghan_test(): sunghan_test() terminated
+test/kshell/kshell.c:446 kshell_execute_next(): Attempting to execute command 'exit'
+test/kshell/kshell.c:147 kshell_destroy(): kshell on byte device 512 destroyed
+
+weenix: halted cleanly!
