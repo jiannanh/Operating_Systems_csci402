@@ -1,0 +1,20 @@
+SIGNATURE: 53616c7465645f5f865bc12ab1b6fef1d5d92f0ff2deaa647f114ba1d749dc934f6081052c9f4527932acd91c168bb31
+test/kshell/kshell.c:98 kshell_add_command(): Added help command
+test/kshell/kshell.c:98 kshell_add_command(): Added echo command
+test/kshell/kshell.c:98 kshell_add_command(): Added exit command
+test/kshell/kshell.c:98 kshell_add_command(): Added sunghan command
+test/kshell/kshell.c:98 kshell_add_command(): Added deadlock command
+test/kshell/kshell.c:98 kshell_add_command(): Added faber command
+test/kshell/kshell.c:133 kshell_create(): kshell successfully created on TTY 0
+test/kshell/kshell.c:446 kshell_execute_next(): Attempting to execute command 'help'
+test/kshell/kshell.c:446 kshell_execute_next(): Attempting to execute command 'deadlock'
+proc/sunghan_test.c:196 sunghan_deadlock_test(): 
+>>> Start running sunghan_deadlock_test()...
+proc/sunghan_test.c:78 add_my_node(): Invoke add_mynode
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 3)
+proc/sunghan_test.c:103 remove_my_node(): Invoke remove_mynode
+proc/sunghan_test.c:66 check_sleep(): Thread remove goes to sleep (rnd = 3)
+proc/sunghan_test.c:69 check_sleep(): Thread add awake
+proc/sunghan_test.c:66 check_sleep(): Thread add goes to sleep (rnd = 1)
+proc/sunghan_test.c:69 check_sleep(): Thread remove awake
+qemu-system-i386: terminating on signal 2
